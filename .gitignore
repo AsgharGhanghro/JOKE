@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+server/.env
+
+# =========================
+# ML Artifacts / Models (IMPORTANT)
+# =========================
+server/artifacts/
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.h5
+
+# =========================
+# Data files (raw datasets)
+# =========================
+data/*.csv
+data/*.json
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Editor / OS
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+tmp/

@@ -1,0 +1,96 @@
+{
+  "training_examples": [
+    {
+      "joke": "Why don't scientists trust atoms? Because they make up everything!",
+      "score": 92,
+      "category": "science",
+      "features": {
+        "has_question": true,
+        "has_exclamation": true,
+        "has_wordplay": true,
+        "length_words": 8
+      }
+    },
+    {
+      "joke": "What do you call a fake noodle? An impasta.",
+      "score": 88,
+      "category": "food",
+      "features": {
+        "has_question": true,
+        "has_pun": true,
+        "length_words": 9
+      }
+    },
+    {
+      "joke": "Why don't skeletons fight each other? They don't have the guts.",
+      "score": 85,
+      "category": "skeleton",
+      "features": {
+        "has_question": true,
+        "has_wordplay": true,
+        "length_words": 10
+      }
+    },
+    {
+      "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+      "score": 78,
+      "category": "relationship",
+      "features": {
+        "has_surprise": true,
+        "has_setup_punchline": true,
+        "length_words": 14
+      }
+    },
+    {
+      "joke": "What's brown and sticky? A stick.",
+      "score": 78,
+      "category": "simple",
+      "features": {
+        "has_question": true,
+        "is_short": true,
+        "length_words": 6
+      }
+    },
+    {
+      "joke": "The rotation of Earth really makes my day.",
+      "score": 69,
+      "category": "pun",
+      "features": {
+        "has_pun": true,
+        "is_short": true,
+        "length_words": 7
+      }
+    },
+    {
+      "joke": "I ate a clock yesterday. It was very time-consuming.",
+      "score": 82,
+      "category": "food_pun",
+      "features": {
+        "has_pun": true,
+        "has_wordplay": true,
+        "length_words": 9
+      }
+    }
+  ],
+  "features_description": {
+    "has_question": "Joke contains a question",
+    "has_exclamation": "Joke ends with exclamation",
+    "has_pun": "Contains wordplay or pun",
+    "has_wordplay": "Uses double meanings",
+    "has_surprise": "Has unexpected punchline",
+    "has_setup_punchline": "Classic joke structure",
+    "is_short": "Less than 10 words",
+    "length_words": "Number of words in joke"
+  },
+  "scoring_rubric": {
+    "90-100": "Legendary - Perfect joke structure, excellent wordplay",
+    "80-89": "Excellent - Very funny, good structure",
+    "70-79": "Great - Solid joke, would get laughs",
+    "60-69": "Good - Decent joke, minor improvements needed",
+    "50-59": "Average - Okay joke, needs work",
+    "40-49": "Below Average - Weak punchline",
+    "30-39": "Poor - Not very funny",
+    "20-29": "Bad - Unfunny or confusing",
+    "0-19": "Terrible - Not a proper joke"
+  }
+}
